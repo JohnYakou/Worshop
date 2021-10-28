@@ -1,0 +1,105 @@
+body{
+    margin: 0; /* en haut, à droite, en bas et à gauche */
+}
+
+.boite{
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 10%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color: green;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.cube{
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color:cyan;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.cercle{
+    border-radius: 50%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color:aquamarine;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.square{
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 15%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color: darksalmon;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.rouge{
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 15%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color: red;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.blanc{
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 15%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color:white;
+    background-size: cover;    
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s
+}
+
+.boite:hover{ /* pseudo class qui applique un effet au survol de la souris */
+margin-top: 5vh;
+}
+
+.clear{
+    clear:both; /* both = supprime l'effet flottant des deux cotés */
+}
+
+.cube:hover{
+margin-top: 5vh;
+}

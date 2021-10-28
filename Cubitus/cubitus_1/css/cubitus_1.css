@@ -1,0 +1,41 @@
+body{
+    margin: 0; /* en haut, à droite, en bas et à gauche */
+}
+
+.boite{
+    border-radius: 15%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color: rgb(92, 56, 255);
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.cube{
+    border-radius: 15%;
+    height: 10vh; /* vh = viewport height */
+    width: 5vw; /* vw = viewport widht */
+    padding: 5vh;
+    background-color: rgb(40, 228, 40);
+    background-size: cover;
+    border: 3px solid black;
+    margin: 0.3vh;
+    float: left; /* effet flotant, ça sort les éléments du flus naturel de la page et les places lees uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margin en 0.5 seconde grâce o :hover */
+}
+
+.boite:hover{ /* pseudo class qui applique un effet au survol de la souris */
+margin-top: 5vh;
+}
+
+.clear{
+    clear:both; /* both = supprime l'effet flottant des deux cotés */
+}
+
+.cube:hover{
+margin-top: 5vh;
+}
