@@ -1,0 +1,84 @@
+.conteneur{
+    height: 1300px;
+}
+
+.carre1{
+margin: 0;
+height: 75px;
+width: 75px;
+background: red;
+-moz-transform: rotate(90deg);
+position: relative;
+top: -8px;
+left: -8px;
+}
+
+.carre2{
+height: 75px;
+width: 75px;
+background: blue;
+-moz-transform: rotate(90deg);
+position: relative;
+left: 96%;
+bottom: 860px;
+position: fixed;
+}
+
+.carre3{
+margin: 0 auto;
+height: 75px;
+width: 75px;
+background:green;
+-moz-transform: rotate(90deg);
+position: relative;
+top: 855px;
+left: 0px;
+position: fixed;
+}
+
+.carre4{
+height: 75px;
+width: 75px;
+background:yellow;
+-moz-transform: rotate(90deg);
+position: relative;
+left: 96.5%;
+bottom: 575px;
+}
+
+.triangle{
+    width: calc(0 + 0);
+    height: calc(0 - 0);
+    border: 0 solid transparent;
+    border-right-width: 100px;
+    border-left-width: 100px;
+    border-top: 150px solid rgb(212, 7, 212);
+    position: relative;
+    left: 42.5%;
+    bottom: 675px;
+    position: fixed;
+}
+
+.rond{
+    z-index: 1;
+    margin-top: 50px;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background:lightseagreen;
+    position: absolute;
+    position: relative;
+    left: 45.7%;
+    top: 300px;
+}
+
+.ombre{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background:gray;
+    position: absolute;
+    position: relative;
+    left: 45.7%;
+    top: 235px;
+}
