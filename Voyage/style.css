@@ -1,0 +1,89 @@
+body{
+    height: 100%;
+}
+
+header, footer{
+    border: 2px solid black;
+    background: rgb(45,253,149);
+    background: -moz-linear-gradient(180deg, rgba(45,253,149,1) 0%, rgba(34,193,195,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(45,253,149,1) 0%, rgba(34,193,195,1) 100%);
+    background: linear-gradient(180deg, rgba(45,253,149,1) 0%, rgba(34,193,195,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1376d0",endColorstr="#22c32f",GradientType=1); 
+}
+
+marquee{
+    border: 2px solid white;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    clip-path:ellipse(50% 50%);
+}
+
+section{
+    border: 1.5px solid transparent;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+}
+
+#japon{
+    background: rgb(86,166,241);
+    background: -moz-linear-gradient(180deg, rgba(86,166,241,1) 0%, rgba(191,129,148,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(86,166,241,1) 0%, rgba(191,129,148,1) 100%);
+    background: linear-gradient(180deg, rgba(86,166,241,1) 0%, rgba(191,129,148,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22b2c3",endColorstr="#d01313",GradientType=1);
+}
+
+#thailande{
+    background: rgb(70,134,195);
+    background: -moz-linear-gradient(180deg, rgba(70,134,195,1) 0%, rgba(97,227,194,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(70,134,195,1) 0%, rgba(97,277,194,1) 100%);
+    background: linear-gradient(180deg, rgba(70,134,195,1) 0%, rgba(97,277,194,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1376d0",endColorstr="#22c32f",GradientType=1); 
+}
+
+#inde{
+    background: linear-gradient(to top, rgb(226,132,23) 50%, rgb(92,144,181) 50%);
+    background: rgb(92,144,181);
+    background: -moz-linear-gradient(180deg, rgba(92,144,181,1) 0%, rgba(226,132,23,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(92,144,181,1) 0%, rgba(226,132,23,1) 100%);
+    background: linear-gradient(180deg, rgba(92,144,181,1) 0%, rgba(226,132,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1376d0",endColorstr="#22c32f",GradientType=1); 
+}
+
+.divjapon, .divinde, .divthailande, h1, marquee, p{
+    color: white;
+}
+
+#japon img, #inde img{
+    justify-content: left;
+}
+
+.divjapon{
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divthailande{
+    text-align: center;
+    flex-direction: column
+}
+
+
+.divinde{
+    text-align: right;
+    width: 1000px;
+}
+
+#japon .flex{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    flex-direction: right;
+}
