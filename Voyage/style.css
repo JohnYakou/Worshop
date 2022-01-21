@@ -1,5 +1,5 @@
 body{
-    height: 100%;
+    width: 100%;
 }
 
 header, footer{
@@ -25,7 +25,7 @@ section{
     border: 1.5px solid transparent;
     width: 70%;
     margin: auto;
-    border-radius: 30px;
+    border-radius: 40px;
     display: flex;
 }
 
@@ -51,7 +51,7 @@ section{
     background: -moz-linear-gradient(180deg, rgba(92,144,181,1) 0%, rgba(226,132,23,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(92,144,181,1) 0%, rgba(226,132,23,1) 100%);
     background: linear-gradient(180deg, rgba(92,144,181,1) 0%, rgba(226,132,23,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1376d0",endColorstr="#22c32f",GradientType=1); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1376d0",endColorstr="#22c32f",GradientType=1);
 }
 
 .divjapon, .divinde, .divthailande, h1, marquee, p{
@@ -63,27 +63,46 @@ section{
 }
 
 .divjapon{
+    margin: 100px;
     width: 450px;
-    justify-content: space-around;
-    align-items: center;
+}
+
+#japon img{
+    margin: auto;
+}
+
+#japon div{
+    width: 40%;
 }
 
 .divthailande{
+    margin: 50px;
     text-align: center;
-    flex-direction: column
 }
 
+#thailande{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#thailande img{
+    margin: auto;
+}
 
 .divinde{
+    margin: 50px;
     text-align: right;
-    width: 1000px;
 }
 
-#japon .flex{
+#inde img{
+    margin: auto;
+}
+
+footer span{
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
 }
 
-i{
-    flex-direction: right;
+footer span i{
+    letter-spacing: 15px;
 }

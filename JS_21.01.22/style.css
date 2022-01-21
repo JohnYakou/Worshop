@@ -1,0 +1,27 @@
+ul img::selection {
+  background-color: forestgreen;
+}
+
+ul li {
+  display: flex;
+  padding: 0.5em;
+  margin: 1px;
+}
+
+.photo-list img {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.photo-list img:hover {
+  background-color: silver;
+}
+
+.photo-list {
+  width: 800px;
+  display: flex;
+}
+
+.selected {
+  background-color: forestgreen;
+}
